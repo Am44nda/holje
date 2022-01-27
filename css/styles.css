@@ -284,7 +284,7 @@ h1 {
 .navigation-row {
   background-color: #161928;
   width: 100%;
-  height: 109px;
+  height: 110px;
 }
 
 .navrow {
@@ -292,126 +292,79 @@ h1 {
   font-family: "Montserrat";
   font-size: 1.4rem;
   font-weight: 300;
-  position: relative;
-  line-height: 254%;
+  line-height: 100%;
   margin: 0 14.5%;
-  width: 75%;
-  top: -72px;
-  letter-spacing: 1.5px;
-  text-align: left;
-}
-
-.navlager {
+  width: 78%;
   position: relative;
-  right: 3%;
+  top: -68px;
 }
 
-.navlager2 {
-  position: relative;
-  right: 6%;
+.navbar-nav {
+  display: table;
+  width: 100%;
+  margin: 0;
 }
 
-.navlager3 {
-  position: relative;
-  right: 5.1%;
+.nav-link {
+  color: #EEEEEE !important;
 }
 
-@media (min-width: 2090px) {
+.nav-link:hover {
+  color: #2C4C90 !important;
+}
+
+.navbar-nav>li {
+  display: table-cell;
+  float: none;
+}
+
+@media (max-width: 2115px) {
   .navrow {
-    font-size: 1.8rem;
-    top: -80px;
-  }
-
-  .navigation-row {
-    height: 115px;
+    top: -72px;
   }
 }
 
-@media (max-width: 1900px) {
-  .navlager2 {
-    position: relative;
-    right: 6.9%;
-  }
-}
-
-@media (max-width: 1590px) {
-  .navlager {
-    position: relative;
-    right: 4%;
-  }
-
-  .navlager2 {
-    position: relative;
-    right: 7.1%;
-  }
-}
-
-@media (max-width: 1199px) {
-  .navlager {
-    position: relative;
-    right: 0;
-  }
-
-  .navlager2 {
-    position: relative;
-    right: 0;
-  }
-
-  .navlager3 {
-    position: relative;
-    right: 0;
-  }
-
-  .navigation-row {
-    height: 152px;
-  }
-
+@media (max-width: 1660px) {
   .navrow {
-    position: relative;
-    background-color: #161928;
-    top: -125px;
+    top: -75px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navrow {
+    width: inherit;
+    padding-left: 14.5%;
+    margin-left: 0;
+    margin-right: 0;
+    top: -78px;
+  }
+
+  .navbar-nav>li {
+    display: inherit;
+    padding-top: 3%;
+    padding-bottom: 2%;
   }
 }
 
 @media (max-width: 767px) {
-  .navigation-row {
-    height: 379px;
-  }
-
   .navrow {
-    position: relative;
-    background-color: #161928;
-    top: -355px;
-    margin: 0 7%;
+    padding-left: 8.5%;
   }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 580px) {
   .navrow {
-    font-size: 1.2rem;
-    line-height: 290%;
-  }
-}
-
-@media (max-width: 460px) {
-  .navrow {
-    font-size: 1rem;
-    line-height: 345%;
+    top: -80px;
   }
 }
 
 a {
-  color: #EEEEEE;
+  color: #EEE;
   text-decoration: none;
-  opacity: 90%;
 }
 
 a:hover {
   text-decoration: none;
-  color: #2C4C90;
-}
-
-.active {
   color: #2C4C90;
 }
 
@@ -424,38 +377,66 @@ h2 {
   padding-bottom: 2%;
 }
 
-
-
 .body-text {
   font-size: 1.2rem;
   font-family: "Montserrat";
   font-weight: 300;
   line-height: 2.5rem;
   position: relative;
-  margin: 7% 15% 8%;
+  margin: 7% 14.5% 8%;
   max-width: 890px;
 }
 
+/* lager.html */
 .body-textlager {
-  max-width: 1950px;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 2.5rem;
+  position: relative;
+  margin: 7% 14.5% 10% 15%;
+  text-align: left;
 }
 
+/* ^ lager.html */
 .logo {
   height: 124px;
   width: 330px;
-  margin-left: -0.5%;
+  margin-left: -0.7%;
 }
 
+/* lager.html */
 .lager {
-  height: 280px;
-  width: 590px;
-  margin-top: 10%;
+  height: 392px;
+  width: 826px;
+  float: right;
+  position: relative;
+  top: -160px;
+  margin-left: 13%;
+  border-radius: 1%;
 }
 
+/* ^ lager.html */
 .lastbil {
   height: 318px;
   width: 553px;
   margin-top: 10%;
+}
+
+@media (max-width: 2251px) {
+  .lager {
+    height: 353.78px;
+    width: 745.465px;
+    top: -142px;
+  }
+}
+
+@media (max-width: 2120px) {
+  .lager {
+    height: 320.264px;
+    width: 674.842px;
+    top: -127px;
+  }
 }
 
 @media (max-width: 2089px) {
@@ -463,8 +444,26 @@ h2 {
     font-size: 2.1rem;
   }
 
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 1.15rem;
+  }
+
+  .lager {
+    top: -116px;
+  }
+}
+
+@media (max-width: 2001px) {
+  .lager {
+    top: -96px;
+  }
+}
+
+@media (max-width: 1782px) {
+  .lager {
+    height: 288.2376px;
+    width: 607.3578px;
+    top: -81px;
   }
 }
 
@@ -473,14 +472,14 @@ h2 {
     font-size: 1.9rem;
   }
 
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 1.1rem;
     max-width: 810px;
   }
 }
 
 @media (max-width: 1199px) {
-  .body-text {
+  .body-text, .bodytextlager {
     margin: 3% 15% 10%;
   }
 }
@@ -490,9 +489,9 @@ h2 {
     font-size: 1.82rem;
   }
 
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 1.05rem;
-    margin: 0 15% 11%;
+    margin: 0 14.5% 11%;
   }
 
   .logo {
@@ -506,7 +505,7 @@ h2 {
     font-size: 1.69rem;
   }
 
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 1rem;
   }
 
@@ -517,9 +516,8 @@ h2 {
 }
 
 @media (max-width: 767px) {
-  .body-text {
-    margin: 0 8.5% -18%;
-    top: -240px;
+  .body-text, .bodytextlager {
+    margin: 0 8.5% 18%;
   }
 }
 
@@ -528,7 +526,7 @@ h2 {
     font-size: 1.5rem;
   }
 
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 0.91rem;
     margin: 0 8.5% -24%;
     top: -245px;
@@ -541,7 +539,7 @@ h2 {
 }
 
 @media (max-width: 545px) {
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 0.89rem;
     margin: 0 8.5% -40%;
     top: -265px;
@@ -558,7 +556,7 @@ h2 {
     font-size: 1.38rem;
   }
 
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 0.85rem;
     line-height: 2.2rem;
     margin: 0 8.5% -38%;
@@ -567,7 +565,7 @@ h2 {
 }
 
 @media (max-width: 385px) {
-  .body-text {
+  .body-text, .bodytextlager {
     font-size: 0.8rem;
     margin: 0 8.5% -65%;
     top: -285px;
@@ -575,7 +573,7 @@ h2 {
 }
 
 @media (max-width: 290px) {
-  .body-text {
+  .body-text, .bodytextlager {
     margin: 0 8.5% -90%;
     top: -295px;
   }
@@ -592,7 +590,7 @@ h2 {
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 1.4rem;
-      padding-bottom: 2%;
+  padding-bottom: 2%;
 }
 
 #foot-content {
@@ -609,6 +607,7 @@ h2 {
 .telefon {
   text-decoration: underline;
 }
+
 .mapsection {
   display: inline-block;
 }
@@ -622,7 +621,6 @@ iframe {
 .footform {
   width: 40%;
   float: right;
-
 }
 
 .formline {
@@ -740,7 +738,7 @@ iframe {
 @media (max-width: 767px) {
   #foot-content {
     margin-left: 8.5%;
-      width: 83%;
+    width: 83%;
   }
 
   .isologos, .fairlogo {
@@ -765,6 +763,7 @@ iframe {
     width: 381.6px;
     height: 284.4px;
   }
+
   .isologos {
     width: 138.672px;
     height: 66.744px;
@@ -785,6 +784,7 @@ iframe {
     width: 343.44px;
     height: 255.96px;
   }
+
   .h2foot {
     font-size: 1.3rem;
   }
@@ -793,12 +793,14 @@ iframe {
     font-size: 0.85rem;
     line-height: 9px;
   }
+
   .footbild {
     width: 145.6056px;
     height: 101.3796px;
     margin-top: -52px;
     margin-left: -26px;
   }
+
   .isologos {
     width: 124.8048px;
     height: 60.0696px;
@@ -808,21 +810,24 @@ iframe {
     width: 59.94px;
     height: 59.94px;
   }
+
   .copyrightfoot {
     bottom: -48px;
   }
+
   .foot {
     height: 1200px;
   }
 }
-@media (max-width: 530px) {
 
+@media (max-width: 530px) {
   .footbild {
     width: 131.04504px;
     height: 91.24164px;
     margin-top: -50px;
     margin-left: -17px;
   }
+
   .isologos {
     width: 124.8048px;
     height: 60.0696px;
@@ -832,9 +837,11 @@ iframe {
     width: 59.94px;
     height: 59.94px;
   }
+
   .copyrightfoot {
     bottom: -62px;
   }
+
   .foot {
     height: 1175px;
   }
@@ -851,18 +858,18 @@ iframe {
     margin-top: -50px;
     margin-left: -17px;
   }
+
   .isologos {
     width: 112.3px;
     height: 54px;
-      margin-top: 15%;
+    margin-top: 15%;
   }
 
   .fairlogo {
     width: 53.9px;
     height: 53.9px;
-      margin-top: 15%;
+    margin-top: 15%;
   }
-
 }
 
 @media (max-width: 445px) {
@@ -870,6 +877,7 @@ iframe {
     margin-top: 45px;
     margin-left: -48px;
   }
+
   .foot {
     height: 1155px;
   }
@@ -885,10 +893,12 @@ iframe {
     margin-top: 12px;
     margin-left: -67px;
   }
+
   .foot {
     height: 1100px;
   }
 }
+
 @media (max-width: 382px) {
   .footbild {
     width: 117.9px;
@@ -901,6 +911,7 @@ iframe {
     width: 278.1px;
     height: 207.36px;
   }
+
   .footbild {
     margin-top: -12px;
     margin-left: -75px;
