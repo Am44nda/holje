@@ -421,7 +421,10 @@ h2 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   color: #2C4C90;
+  padding-bottom: 2%;
 }
+
+
 
 .body-text {
   font-size: 1.2rem;
