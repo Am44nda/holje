@@ -168,22 +168,25 @@ h1 {
   }
 
   .pil {
-    width: 58px;
+    width: 48px;
   }
 
   .box {
     position: relative;
-    top: 38px;
+    top: 40px;
   }
 
   .second-row {
-    font-size: 1rem;
-    padding-top: 2px;
+    font-size: 1.14rem;
+    position: relative;
+    top: 1.4px;
   }
 
   .third-row {
-    font-size: 0.75rem;
-    bottom: 34px;
+    font-size: 0.82rem;
+    position: relative;
+    top: -13px;
+    left: -1px;
   }
 }
 
@@ -200,7 +203,7 @@ h1 {
   .second-row {
     font-size: 1.08rem;
     position: relative;
-    top: -2.3px;
+    top: -4.5px;
   }
 
   .third-row {
@@ -220,7 +223,7 @@ h1 {
   .second-row {
     font-size: 0.97rem;
     position: relative;
-    top: -2.8px;
+    top: -5.3px;
   }
 
   .third-row {
@@ -235,8 +238,6 @@ h1 {
 
   .second-row {
     font-size: 0.88rem;
-    position: relative;
-    top: -2.5px;
   }
 
   .third-row {
@@ -255,11 +256,12 @@ h1 {
   .second-row {
     font-size: 0.83rem;
     position: relative;
-    top: -4.4px;
+    top: -6.5px;
   }
 
   .third-row {
     font-size: 0.6rem;
+    top: -28px;
   }
 }
 @media (max-width: 297px) {
@@ -269,6 +271,7 @@ h1 {
 
   .second-row {
     font-size: 0.7rem;
+      top: -7.5px;
   }
 
   .third-row {
