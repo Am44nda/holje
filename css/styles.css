@@ -142,7 +142,7 @@ h1 {
   }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 528px) {
   h1 {
     font-size: 2rem;
   }
@@ -162,7 +162,7 @@ h1 {
   }
 }
 
-@media (max-width: 556px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 1.8rem;
   }
@@ -187,69 +187,10 @@ h1 {
   }
 }
 
-@media (max-width: 499px) {
+
+@media (max-width: 424px) {
   h1 {
     font-size: 1.65rem;
-  }
-
-  .pil {
-    width: 56px;
-  }
-
-  .box {
-    position: relative;
-    top: 35px;
-  }
-
-  .second-row {
-    font-size: 0.95rem;
-    padding-top: 2px;
-  }
-
-  .third-row {
-    font-size: 0.7rem;
-    bottom: 34px;
-  }
-}
-
-@media (max-width: 460px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .pil {
-    width: 50px;
-  }
-
-  .second-row {
-    font-size: 0.88rem;
-    padding-top: 0;
-  }
-
-  .third-row {
-    font-size: 0.63rem;
-    bottom: 36px;
-    left: 60px;
-  }
-}
-
-@media (max-width: 410px) {
-  h1 {
-    font-size: 1.4rem;
-  }
-
-  .second-row {
-    font-size: 0.8rem;
-  }
-
-  .third-row {
-    font-size: 0.5rem;
-  }
-}
-
-@media (max-width: 370px) {
-  h1 {
-    font-size: 1.2rem;
   }
 
   .pil {
@@ -257,16 +198,81 @@ h1 {
   }
 
   .second-row {
-    font-size: 0.85rem;
+    font-size: 1.08rem;
     position: relative;
-    top: 0;
+    top: -2.3px;
   }
 
   .third-row {
-    font-size: 0.61rem;
+    font-size: 0.75rem;
     position: relative;
     top: -24px;
     left: -1px;
+  }
+}
+
+
+@media (max-width: 385px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .second-row {
+    font-size: 0.97rem;
+    position: relative;
+    top: -2.8px;
+  }
+
+  .third-row {
+    font-size: 0.682rem;
+  }
+}
+
+@media (max-width: 348px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .second-row {
+    font-size: 0.88rem;
+    position: relative;
+    top: -2.5px;
+  }
+
+  .third-row {
+    font-size: 0.63rem;
+  }
+}
+
+@media (max-width: 324px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+    .pil {
+      width: 30px;
+    }
+
+  .second-row {
+    font-size: 0.83rem;
+    position: relative;
+    top: -4.4px;
+  }
+
+  .third-row {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 297px) {
+  h1 {
+    font-size: 1.13rem;
+  }
+
+  .second-row {
+    font-size: 0.7rem;
+  }
+
+  .third-row {
+    font-size: 0.52rem;
   }
 }
 
