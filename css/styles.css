@@ -433,6 +433,10 @@ h2 {
   max-width: 890px;
 }
 
+.body-textlager {
+  max-width: 1950px;
+}
+
 .logo {
   height: 124px;
   width: 330px;
@@ -552,7 +556,8 @@ h2 {
   }
 
   .body-text {
-    font-size: 0.82rem;
+    font-size: 0.85rem;
+    line-height: 2.2rem;
     margin: 0 8.5% -38%;
     top: -275px;
   }
