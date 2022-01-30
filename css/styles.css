@@ -444,7 +444,7 @@ h2 {
     font-size: 2.1rem;
   }
 
-  .body-text, .bodytextlager {
+  .body-text, .bodytext-lager {
     font-size: 1.15rem;
   }
 
@@ -459,7 +459,7 @@ h2 {
   }
 }
 
-@media (max-width: 1782px) {
+@media (max-width: 1972px) {
   .lager {
     height: 288.2376px;
     width: 607.3578px;
@@ -467,22 +467,27 @@ h2 {
   }
 }
 
-@media (max-width: 1609px) {
+@media (max-width: 1862px) {
   .lager {
-    top: -68px;
+    height: 273.82572px;
+    width: 576.98991px;
+    top: -81px;
   }
 }
 
-@media (max-width: 1567px) {
+@media (max-width: 1744px) {
   .lager {
-    height: 259.41384px;
-    width: 546.62202px;
+    height: 260px;
+    width: 548px;
+    top: -71px;
   }
 }
 
-@media (max-width: 1510px) {
+@media (max-width: 1557px) {
   .lager {
-  top: -53px;
+    height: 234px;
+    width: 493.2px;
+    top: -44px;
   }
 }
 
@@ -491,36 +496,59 @@ h2 {
     font-size: 1.9rem;
   }
 
-  .body-text, .bodytextlager {
+  .body-text, .body-textlager {
     font-size: 1.1rem;
     max-width: 810px;
   }
-}
 
-@media (max-width: 1468px) {
   .lager {
-  float: bottom;
-  position: relative;
-  top: 290px;
-  right: 489px;
-  margin-left: 0%;
-  border-radius: 1%;
+    height: 353.78px;
+    width: 745.465px;
+    float: inherit;
+    position: absolute;
+    top: 294px;
+    right: -45px;
   }
+
   .body-textlager {
-    position: relative;
-    margin: 7% 14.5% 34% 15%;
+    margin: 6% 14.5% 38% 15%;
+    max-width: 700px;
   }
 }
 
+@media (max-width: 1429px) {
+  .lager {
+    height: 320.264px;
+    width: 674.842px;
+    right: 26px;
+  }
+}
+
+@media (max-width: 1296px) {
+  .body-textlager {
+    margin: 6% 14.5% 40% 15%;
+  }
+}
 
 @media (max-width: 1199px) {
   h2 {
     font-size: 1.82rem;
   }
 
-  .body-text, .bodytextlager {
+  .body-text {
     font-size: 1.05rem;
     margin: 4% 14.5% 10%;
+  }
+
+  .body-textlager {
+    font-size: 1.05rem;
+    margin: 6% 14.5% 40% 15%;
+  }
+
+  .lager {
+    height: 307.45px;
+    width: 647.85px;
+    right: 53px;
   }
 
   .logo {
@@ -528,25 +556,43 @@ h2 {
     width: 313.5px;
   }
 }
+
+@media (max-width: 1156px) {
+  .body-textlager {
+    margin: 6% 14.5% 44% 15%;
+  }
+}
+
+@media (max-width: 1108px) {
+  .lager {
+    height: 282.854px;
+    width: 596px;
+    right: 104px;
+  }
+}
+
+
 
 @media (max-width: 798px) {
   h2 {
     font-size: 1.69rem;
   }
 
-  .body-text, .bodytextlager {
+  .body-text, .body-textlager {
     font-size: 1rem;
   }
 
   .logo {
     height: 117.8px;
     width: 313.5px;
+    position: relative;
+    top: -10px;
   }
 }
 
 @media (max-width: 767px) {
-  .body-text, .bodytextlager {
-    margin: 0 8.5% 18%;
+  .body-text, .body-textlager {
+    margin: 0 8.5% 10%;
   }
 }
 
@@ -555,9 +601,8 @@ h2 {
     font-size: 1.55rem;
   }
 
-  .body-text, .bodytextlager {
+  .body-text, .body-textlager {
     font-size: 0.96rem;
-    margin: 0 8.5% 10%;
   }
 
   .logo {
@@ -569,30 +614,31 @@ h2 {
 @media (max-width: 545px) {
   h2 {
     font-size: 1.45rem;
-      padding-bottom: 3.3%;
+    padding-bottom: 3.3%;
   }
 
-  .body-text, .bodytextlager {
+  .body-text, .body-textlager {
     font-size: 0.89rem;
     line-height: 2.2rem;
-    margin: 0 8.5% 8%;
+    margin: 0 8.5% 5%;
     top: -6px;
   }
 
   .logo {
     height: 90.117px;
     width: 239.8275px;
+    position: relative;
+    top: -28px;
   }
 }
-
 
 @media (max-width: 299px) {
   h2 {
     font-size: 1.2rem;
   }
 
-  .body-text, .bodytextlager {
-  font-size: 0.85rem;
+  .body-text, .body-textlager {
+    font-size: 0.85rem;
     margin: 0 8.5% 0;
     top: -24px;
   }
