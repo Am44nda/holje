@@ -331,12 +331,16 @@ h1 {
 }
 
 @media (max-width: 991px) {
+  .navigation-row {
+    height: 80px;
+  }
+
   .navrow {
     width: inherit;
     padding-left: 14.5%;
     margin-left: 0;
     margin-right: 0;
-    top: -78px;
+    top: -64px;
   }
 
   .navbar-nav>li {
@@ -349,12 +353,18 @@ h1 {
 @media (max-width: 767px) {
   .navrow {
     padding-left: 8.5%;
+    top: -65px;
   }
 }
 
 @media (max-width: 580px) {
+  .navigation-row {
+    height: 0;
+  }
+
   .navrow {
-    top: -80px;
+    top: 1px;
+    margin-bottom: 55px;
   }
 }
 
@@ -421,6 +431,7 @@ h2 {
   height: 318px;
   width: 553px;
   margin-top: 10%;
+  border-radius: 1%;
 }
 
 @media (max-width: 2251px) {
@@ -495,21 +506,18 @@ h2 {
   h2 {
     font-size: 1.9rem;
   }
-
   .body-text, .body-textlager {
     font-size: 1.1rem;
     max-width: 810px;
   }
-
   .lager {
     height: 353.78px;
     width: 745.465px;
     float: inherit;
     position: absolute;
     top: 294px;
-    right: -45px;
+    margin-left: 0;
   }
-
   .body-textlager {
     margin: 6% 14.5% 38% 15%;
     max-width: 700px;
@@ -520,7 +528,6 @@ h2 {
   .lager {
     height: 320.264px;
     width: 674.842px;
-    right: 26px;
   }
 }
 
@@ -548,7 +555,6 @@ h2 {
   .lager {
     height: 307.45px;
     width: 647.85px;
-    right: 53px;
   }
 
   .logo {
@@ -567,11 +573,27 @@ h2 {
   .lager {
     height: 282.854px;
     width: 596px;
-    right: 104px;
   }
 }
 
+@media (max-width: 993px) {
+  .lager {
+    height: 254.5686px;
+    width: 536.4px;
+  }
+}
 
+@media (max-width: 929px) {
+  .body-textlager {
+    margin: 6% 14.5% 48% 15%;
+  }
+}
+
+@media (max-width: 870px) {
+  .body-textlager {
+    margin: 6% 14.5% 52% 15%;
+  }
+}
 
 @media (max-width: 798px) {
   h2 {
@@ -588,11 +610,35 @@ h2 {
     position: relative;
     top: -10px;
   }
+
+  .body-textlager {
+    margin: 6% 14.5% 55% 15%;
+  }
 }
 
 @media (max-width: 767px) {
-  .body-text, .body-textlager {
-    margin: 0 8.5% 10%;
+  .body-text {
+    margin: 4% 8.5% 10%;
+  }
+
+  .body-textlager {
+    margin: 0 8.5% 55%;
+  }
+
+  .lager {
+    width: 100%;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 689px) {
+  .body-textlager {
+    margin: 0 8.5% 60%;
+  }
+
+  .lager {
+    width: 100%;
+    margin-top: -12px;
   }
 }
 
@@ -609,6 +655,26 @@ h2 {
     height: 100.13px;
     width: 266.475px;
   }
+
+  .body-textlager {
+    margin: 0 8.5% 63%;
+  }
+
+  .lager {
+    height: 240px;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 572px) {
+  .body-textlager {
+    margin: 0 8.5% 65%;
+  }
+
+  .lager {
+    height: 240px;
+    margin-top: -26px;
+  }
 }
 
 @media (max-width: 545px) {
@@ -617,10 +683,13 @@ h2 {
     padding-bottom: 3.3%;
   }
 
+  .body-text {
+    margin: 0 8.5% 5%;
+  }
+
   .body-text, .body-textlager {
     font-size: 0.89rem;
     line-height: 2.2rem;
-    margin: 0 8.5% 5%;
     top: -6px;
   }
 
@@ -630,6 +699,52 @@ h2 {
     position: relative;
     top: -28px;
   }
+
+  .body-textlager {
+    margin: 0 8.5% 57%;
+  }
+
+  .lager {
+    height: 200px;
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 478px) {
+  .lager {
+    height: 180px;
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 458px) {
+  .body-textlager {
+    margin: 0 8.5% 62%;
+  }
+}
+
+@media (max-width: 410px) {
+  .body-textlager {
+    margin: 0 8.5% 66%;
+  }
+
+  .lager {
+    height: 160px;
+  }
+}
+
+@media (max-width: 339px) {
+  .lager {
+      height: 150px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 316px) {
+  .lager {
+    height: 135px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 299px) {
@@ -637,9 +752,12 @@ h2 {
     font-size: 1.2rem;
   }
 
+  .body-text {
+    margin: 0 8.5% 0;
+  }
+
   .body-text, .body-textlager {
     font-size: 0.85rem;
-    margin: 0 8.5% 0;
     top: -24px;
   }
 
