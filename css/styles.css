@@ -186,7 +186,7 @@ h1 {
   .third-row {
     font-size: 0.82rem;
     position: relative;
-    top: -13px;
+    top: -18px;
     left: -1px;
   }
 }
@@ -209,7 +209,7 @@ h1 {
   .third-row {
     font-size: 0.75rem;
     position: relative;
-    top: -24px;
+    top: -29px;
     left: -1px;
   }
 }
@@ -261,7 +261,7 @@ h1 {
 
   .third-row {
     font-size: 0.6rem;
-    top: -28px;
+    top: -34px;
   }
 }
 
@@ -397,6 +397,12 @@ h2 {
   max-width: 890px;
 }
 
+.logo {
+  height: 124px;
+  width: 330px;
+  margin-left: -0.7%;
+}
+
 /* lager.html */
 .body-textlager {
   font-size: 1.2rem;
@@ -408,14 +414,6 @@ h2 {
   text-align: left;
 }
 
-/* ^ lager.html */
-.logo {
-  height: 124px;
-  width: 330px;
-  margin-left: -0.7%;
-}
-
-/* lager.html */
 .lager {
   height: 392px;
   width: 826px;
@@ -426,11 +424,25 @@ h2 {
   border-radius: 1%;
 }
 
-/* ^ lager.html */
+/* transport */
+.body-texttransport {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 2.5rem;
+  position: relative;
+  margin: 7% 14.5% 10% 15%;
+  text-align: left;
+}
+
 .lastbil {
-  height: 318px;
-  width: 553px;
-  margin-top: 10%;
+  height: 445.2px;
+  width: 774.2px;
+  float: right;
+  position: relative;
+  top: -165px;
+  margin-left: 10%;
+  right: 20px;
   border-radius: 1%;
 }
 
@@ -439,6 +451,12 @@ h2 {
     height: 353.78px;
     width: 745.465px;
     top: -142px;
+  }
+
+  .lastbil {
+    height: 400.68px;
+    width: 696.78px;
+    top: -145px;
   }
 }
 
@@ -451,16 +469,18 @@ h2 {
 }
 
 @media (max-width: 2089px) {
-  h2 {
-    font-size: 2.1rem;
-  }
-
-  .body-text, .bodytext-lager {
+  .body-text, .bodytext-lager, .body-texttransport {
     font-size: 1.15rem;
   }
 
   .lager {
     top: -116px;
+  }
+
+  .lastbil {
+    height: 360.612px;
+    width: 627.102px;
+    top: -125px;
   }
 }
 
@@ -476,6 +496,18 @@ h2 {
     width: 607.3578px;
     top: -81px;
   }
+
+  .lastbil {
+    height: 342.6px;
+    width: 595.75px;
+    top: -115px;
+  }
+}
+
+@media (max-width: 1916px) {
+  .lastbil {
+    top: -96px;
+  }
 }
 
 @media (max-width: 1862px) {
@@ -483,6 +515,18 @@ h2 {
     height: 273.82572px;
     width: 576.98991px;
     top: -81px;
+  }
+
+  .lastbil {
+    height: 322px;
+    width: 560px;
+    top: -87px;
+  }
+}
+
+@media (max-width: 1780px) {
+  .lastbil {
+    top: -55px;
   }
 }
 
@@ -500,16 +544,24 @@ h2 {
     width: 493.2px;
     top: -44px;
   }
+
+  .lastbil {
+    height: 302.68px;
+    width: 526.4px;
+    top: -35px;
+  }
 }
 
 @media (max-width: 1499px) {
   h2 {
     font-size: 1.9rem;
   }
-  .body-text, .body-textlager {
+
+  .body-text, .body-textlager, .body-texttransport {
     font-size: 1.1rem;
     max-width: 810px;
   }
+
   .lager {
     height: 353.78px;
     width: 745.465px;
@@ -518,9 +570,19 @@ h2 {
     top: 294px;
     margin-left: 0;
   }
-  .body-textlager {
+
+  .body-textlager, .body-texttransport {
     margin: 6% 14.5% 38% 15%;
     max-width: 700px;
+  }
+
+  .lastbil {
+    height: 400.68px;
+    width: 696.78px;
+    float: inherit;
+    position: absolute;
+    top: 325px;
+    left: -70px;
   }
 }
 
@@ -529,11 +591,19 @@ h2 {
     height: 320.264px;
     width: 674.842px;
   }
+
+  .body-texttransport {
+    margin: 6% 14.5% 42% 15%;
+  }
 }
 
 @media (max-width: 1296px) {
   .body-textlager {
     margin: 6% 14.5% 40% 15%;
+  }
+
+  .body-texttransport {
+    margin: 6% 14.5% 45% 15%;
   }
 }
 
@@ -547,14 +617,24 @@ h2 {
     margin: 4% 14.5% 10%;
   }
 
-  .body-textlager {
+  .body-textlager, .body-texttransport {
     font-size: 1.05rem;
     margin: 6% 14.5% 40% 15%;
+  }
+
+  .body-texttransport {
+    max-width: 670px;
   }
 
   .lager {
     height: 307.45px;
     width: 647.85px;
+  }
+
+  .lastbil {
+    height: 290.5728px;
+    width: 505.344px;
+    left: -66px;
   }
 
   .logo {
@@ -574,12 +654,26 @@ h2 {
     height: 282.854px;
     width: 596px;
   }
+
+  .body-texttransport {
+    margin: 6% 14.5% 44% 15%;
+  }
 }
 
 @media (max-width: 993px) {
   .lager {
     height: 254.5686px;
     width: 536.4px;
+  }
+
+  .body-texttransport {
+    margin: 6% 14.5% 48% 15%;
+  }
+}
+
+@media (max-width: 943px) {
+  .body-texttransport {
+    margin: 6% 14.5% 50% 15%;
   }
 }
 
@@ -600,7 +694,7 @@ h2 {
     font-size: 1.69rem;
   }
 
-  .body-text, .body-textlager {
+  .body-text, .body-textlager, .body-texttransport {
     font-size: 1rem;
   }
 
@@ -622,23 +716,23 @@ h2 {
   }
 
   .body-textlager {
-    margin: 0 8.5% 55%;
+    margin: 0 8.5% 58%;
   }
 
   .lager {
-    width: 100%;
+    height: 270px;
+    width: 95%;
     margin-top: -10px;
   }
 }
 
 @media (max-width: 689px) {
   .body-textlager {
-    margin: 0 8.5% 60%;
+    margin: 0 8.5% 62%;
   }
 
   .lager {
-    width: 100%;
-    margin-top: -12px;
+    margin-top: -22px;
   }
 }
 
@@ -647,7 +741,7 @@ h2 {
     font-size: 1.55rem;
   }
 
-  .body-text, .body-textlager {
+  .body-text, .body-textlager, .body-texttransport {
     font-size: 0.96rem;
   }
 
@@ -661,8 +755,7 @@ h2 {
   }
 
   .lager {
-    height: 240px;
-    margin-top: -20px;
+    height: 230px;
   }
 }
 
@@ -683,11 +776,11 @@ h2 {
     padding-bottom: 3.3%;
   }
 
-  .body-text {
+  .body-text, .body-texttransport {
     margin: 0 8.5% 5%;
   }
 
-  .body-text, .body-textlager {
+  .body-text, .body-textlager, .body-texttransport {
     font-size: 0.89rem;
     line-height: 2.2rem;
     top: -6px;
@@ -735,7 +828,7 @@ h2 {
 
 @media (max-width: 339px) {
   .lager {
-      height: 150px;
+    height: 150px;
     margin-top: -10px;
   }
 }
@@ -752,11 +845,11 @@ h2 {
     font-size: 1.2rem;
   }
 
-  .body-text {
+  .body-text, .body-texttransport {
     margin: 0 8.5% 0;
   }
 
-  .body-text, .body-textlager {
+  .body-text, .body-textlager, .body-texttransport {
     font-size: 0.85rem;
     top: -24px;
   }
