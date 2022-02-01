@@ -446,6 +446,7 @@ h2 {
   border-radius: 1%;
 }
 
+
 @media (max-width: 2251px) {
   .lager {
     height: 353.78px;
@@ -521,6 +522,10 @@ h2 {
     height: 322px;
     width: 560px;
     top: -87px;
+  }
+  .certlogos {
+    position: relative;
+    top: -10px;
   }
 }
 
@@ -598,6 +603,9 @@ h2 {
   .body-texttransport {
     margin: 6% 14.5% 44% 15%;
   }
+  .certlogos {
+    top: -20px;
+  }
 }
 
 @media (max-width: 1296px) {
@@ -656,6 +664,9 @@ h2 {
   .body-textlager {
     margin: 6% 14.5% 44% 15%;
   }
+  .certlogos {
+    top: -30px;
+  }
 }
 
 @media (max-width: 1108px) {
@@ -682,7 +693,9 @@ h2 {
     margin: inherit;
     left: -100px;
     margin-top: -12px;
-
+  }
+  .certlogos {
+    top: -40px;
   }
 }
 
@@ -785,6 +798,9 @@ h2 {
     left: -54px;
     margin-top: -15px;
   }
+  .certlogos {
+    top: -58px;
+  }
 }
 
 @media (max-width: 730px) {
@@ -876,6 +892,9 @@ h2 {
   .lager {
     height: 240px;
     margin-top: -26px;
+  }
+  .certlogos {
+    top: -40px;
   }
 }
 
@@ -980,6 +999,9 @@ h2 {
     margin-top: 10px;
       left: -28px;
   }
+  .certlogos {
+    top: -32px;
+  }
 }
 
 @media (max-width: 385px) {
@@ -1030,6 +1052,9 @@ h2 {
       height: 160px;
     margin-top: 65px;
       left: -21px;
+  }
+  .certlogos {
+    top: -20px;
   }
 }
 
