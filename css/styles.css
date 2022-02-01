@@ -13,6 +13,13 @@ h1 {
   font-family: 'Fira Sans', sans-serif;
 }
 
+h3 {
+  color: #2C4C90;
+  font-size: 1.5rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+}
+
 .second-row {
   color: #2C4C90;
   opacity: 90%;
@@ -444,6 +451,23 @@ h2 {
   margin-left: 10%;
   right: 20px;
   border-radius: 1%;
+}
+
+.body-textkontakt {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 2.5rem;
+  position: relative;
+  margin: 7% 14.5% 12%;
+}
+
+.profileimg {
+  width: 30%;
+  position: relative;
+  left: 10%;
+  margin-top: 20%;
+  margin-bottom: 6%;
 }
 
 
