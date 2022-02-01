@@ -385,6 +385,14 @@ a:hover {
   color: #2C4C90;
 }
 
+.ac {
+  color: #2C4C90;
+}
+
+.ac:hover {
+color: #CCC;
+}
+
 /* BODY */
 h2 {
   font-size: 2.4rem;
@@ -494,7 +502,7 @@ h2 {
 }
 
 @media (max-width: 2089px) {
-  .body-text, .bodytext-lager, .body-texttransport {
+  .body-text, .bodytext-lager, .body-texttransport, .body-textkontakt {
     font-size: 1.15rem;
   }
 
@@ -591,6 +599,10 @@ h2 {
     max-width: 810px;
   }
 
+  .body-textkontakt {
+    font-size: 1.1rem;
+  }
+
   .lager {
     height: 353.78px;
     width: 745.465px;
@@ -661,6 +673,10 @@ h2 {
   .body-textlager, .body-texttransport {
     font-size: 1.05rem;
     margin: 6% 14.5% 40% 15%;
+  }
+
+  .body-textkontakt {
+    font-size: 1.05rem;
   }
 
   .body-texttransport {
@@ -776,7 +792,7 @@ h2 {
     font-size: 1.69rem;
   }
 
-  .body-text, .body-textlager, .body-texttransport {
+  .body-text, .body-textlager, .body-texttransport, .body-textkontakt {
     font-size: 1rem;
   }
 
@@ -877,7 +893,7 @@ h2 {
     font-size: 1.55rem;
   }
 
-  .body-text, .body-textlager, .body-texttransport {
+  .body-text, .body-textlager, .body-texttransport, .body-textkontakt {
     font-size: 0.96rem;
   }
 
@@ -940,7 +956,7 @@ h2 {
     margin: 0 8.5% 5%;
   }
 
-  .body-text, .body-textlager, .body-texttransport {
+  .body-text, .body-textlager, .body-texttransport, .body-textkontakt {
     font-size: 0.89rem;
     line-height: 2.2rem;
     top: -6px;
@@ -1092,7 +1108,7 @@ h2 {
   }
 
 
-  .body-text, .body-textlager, .body-texttransport {
+  .body-text, .body-textlager, .body-texttransport, .body-textkontakt {
     font-size: 0.85rem;
     top: -24px;
   }
