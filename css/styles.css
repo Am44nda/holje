@@ -301,9 +301,10 @@ h3 {
   font-weight: 300;
   line-height: 100%;
   margin: 0 14.5%;
-  width: 78%;
+  width: 70%;
   position: relative;
   top: -68px;
+    text-align: left;
 }
 
 .navbar-nav {
@@ -320,6 +321,9 @@ h3 {
   color: #2C4C90 !important;
 }
 
+li {
+  width: 20%;
+}
 .navbar-nav>li {
   display: table-cell;
   float: none;
@@ -461,13 +465,15 @@ h2 {
   border-radius: 1%;
 }
 
+/* kontakt */
+
 .body-textkontakt {
   font-size: 1.2rem;
   font-family: "Montserrat";
   font-weight: 300;
   line-height: 2.5rem;
   position: relative;
-  margin: 7% 14.5% 12%;
+  margin: 7% 7% 13% 14.5%;
 }
 
 .profileimg {
@@ -480,6 +486,10 @@ h2 {
 
 
 @media (max-width: 2251px) {
+  .body-textkontakt {
+    margin: 7% 8% 13% 14.5%;
+  }
+
   .lager {
     height: 353.78px;
     width: 745.465px;
@@ -494,6 +504,9 @@ h2 {
 }
 
 @media (max-width: 2120px) {
+  .body-textkontakt {
+    margin: 7% 10% 13% 14.5%;
+  }
   .lager {
     height: 320.264px;
     width: 674.842px;
@@ -504,6 +517,10 @@ h2 {
 @media (max-width: 2089px) {
   .body-text, .bodytext-lager, .body-texttransport, .body-textkontakt {
     font-size: 1.15rem;
+  }
+
+  h3 {
+    font-size: 1.42rem;
   }
 
   .lager {
@@ -538,6 +555,9 @@ h2 {
 }
 
 @media (max-width: 1916px) {
+  .body-textkontakt {
+    margin: 7% 11% 13% 14.5%;
+  }
   .lastbil {
     top: -96px;
   }
@@ -549,7 +569,12 @@ h2 {
     width: 576.98991px;
     top: -81px;
   }
-
+  h3 {
+    font-size: 1.4rem;
+  }
+  .body-textkontakt {
+    font-size: 1.06rem;
+  }
   .lastbil {
     height: 322px;
     width: 560px;
@@ -562,12 +587,19 @@ h2 {
 }
 
 @media (max-width: 1780px) {
+  .body-textkontakt {
+    margin: 7% 13% 13% 14.5%;
+  }
   .lastbil {
     top: -55px;
   }
 }
 
 @media (max-width: 1744px) {
+  .body-textkontakt {
+    margin: 7% 14% 13% 14.5%;
+  }
+
   .lager {
     height: 260px;
     width: 548px;
@@ -598,9 +630,11 @@ h2 {
     font-size: 1.1rem;
     max-width: 810px;
   }
-
+  h3 {
+    font-size: 1.35rem;
+  }
   .body-textkontakt {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .lager {
@@ -620,6 +654,9 @@ h2 {
         margin: 6% 14.5% 40% 15%;
         max-width: 700px;
   }
+  .body-textkontakt {
+    margin: 7% 15% 13% 14.5%;
+  }
 
   .lastbil {
     height: 384.6528px;
@@ -632,6 +669,20 @@ h2 {
 }
 
 @media (max-width: 1429px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+  .h2kontakt {
+    margin: 0 0 0 8%;
+  }
+
+  .body-textkontakt {
+    font-size: 0.95rem;
+      line-height: 2.1rem;
+        margin: 7% auto 13% 7%;
+  }
+
+
   .lager {
     height: 320.264px;
     width: 674.842px;
@@ -639,6 +690,7 @@ h2 {
   .body-texttransport {
     margin: 6% 14.5% 44% 15%;
   }
+
   .certlogos {
     top: -20px;
   }
@@ -652,6 +704,12 @@ h2 {
   .body-texttransport {
     margin: 6% 14.5% 45% 15%;
   }
+  .h2kontakt {
+    margin: 0 0 0 10%;
+  }
+  .body-textkontakt {
+        margin: 7% auto 13% 5%;
+  }
 }
 
 @media (max-width: 1225px) {
@@ -663,6 +721,9 @@ h2 {
 @media (max-width: 1199px) {
   h2 {
     font-size: 1.82rem;
+  }
+  h3 {
+    font-size: 1.15rem;
   }
 
   .body-text {
@@ -676,7 +737,7 @@ h2 {
   }
 
   .body-textkontakt {
-    font-size: 1.05rem;
+    font-size: 0.93rem;
   }
 
   .body-texttransport {
@@ -736,6 +797,22 @@ h2 {
   }
   .certlogos {
     top: -40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .h2kontakt {
+        margin: 0;
+  }
+  .body-textkontakt {
+        margin: 7% auto 13% 14.5%;
+  }
+  .profileimg {
+    width: 22%;
+    position: relative;
+    left: 0;
+    margin-bottom: 3%;
+    margin-top: 11%;
   }
 }
 
@@ -825,6 +902,9 @@ h2 {
 
   .body-texttransport {
     margin: 0 8.5% 63%;
+  }
+  .body-textkontakt {
+        margin: 7% 8.5% 13%;
   }
 
   .lager {
