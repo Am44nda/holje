@@ -4,7 +4,12 @@ html, body {
   overflow-x: hidden;
 }
 
+
 /* Header-section */
+.bgtop {
+  background-color: #e4f3ff;
+}
+
 h1 {
   margin: 0;
   font-size: 3.25rem;
@@ -398,6 +403,7 @@ color: #CCC;
 }
 
 /* BODY */
+
 h2 {
   font-size: 2.4rem;
   font-family: 'Fira Sans', sans-serif;
