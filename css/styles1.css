@@ -60,6 +60,7 @@ h3 {
   margin: 0 auto;
   width: 628px;
   animation: 5500ms fadeIn;
+  animation-delay: 1s;
 }
 
 @keyframes fadeIn {
