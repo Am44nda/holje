@@ -13,6 +13,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   font-family: 'Fira Sans', sans-serif;
+  text-shadow: 1px 1px #000;
 }
 
 h3 {
@@ -58,6 +59,18 @@ h3 {
 .box {
   margin: 0 auto;
   width: 628px;
+  animation: 5500ms fadeIn;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .header-image {
@@ -447,6 +460,7 @@ h2 {
 .logo {
   height: 124px;
   width: 330px;
+  opacity: 95%;
   margin-left: -0.7%;
 }
 
