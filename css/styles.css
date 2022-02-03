@@ -377,6 +377,7 @@ li {
     margin-left: 0;
     margin-right: 0;
     top: -64px;
+    animation: inherit;
   }
 
   .navbar-nav>li {
