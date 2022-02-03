@@ -67,14 +67,6 @@ h3 {
   overflow: hidden;
 }
 
-@keyframes slideIn {
-0% {
-  transform: translateX(-100%);
-}
-100% {
-  transform: translateX(0);
-}
-}
 
 @media (min-width: 1500px) {
   h1 {
@@ -315,8 +307,28 @@ h3 {
   width: 70%;
   position: relative;
   top: -68px;
-    text-align: left;
-      animation: 1s ease-out 0s 1 slideIn;
+  text-align: left;
+  animation: 5s slideIn;
+}
+
+@keyframes slideIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 0;
+  }
+
 }
 
 .navbar-nav {
@@ -454,6 +466,18 @@ h2 {
   top: -160px;
   margin-left: 13%;
   border-radius: 1%;
+  animation: 5s stretch;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.6);
+    opacity: 10%;
+    border-radius: 30%;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* transport */
@@ -476,6 +500,7 @@ h2 {
   margin-left: 10%;
   right: 20px;
   border-radius: 1%;
+    animation: 5s stretch;
 }
 
 /* kontakt */
@@ -659,7 +684,7 @@ h2 {
     margin-left: 0;
   }
 
-  .body-textlager, {
+  .body-textlager {
     margin: 6% 14.5% 38% 15%;
     max-width: 700px;
   }
@@ -1262,8 +1287,8 @@ iframe {
 }
 
 .footform {
-  width: 40%;
-  float: right;
+float: right;
+  width: 41%;
 }
 
 .formline {
@@ -1305,6 +1330,10 @@ iframe {
   width: 74px;
   height: 74px;
   margin-top: 5%;
+}
+
+.fairlogo:hover {
+  opacity: 60%;
 }
 
 .foot {
