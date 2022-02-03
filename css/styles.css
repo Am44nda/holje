@@ -1287,8 +1287,10 @@ iframe {
 }
 
 .footform {
-float: right;
   width: 41%;
+  position: absolute;
+  top: 0px;
+  right: 0;
 }
 
 .formline {
@@ -1367,6 +1369,7 @@ float: right;
   .footform {
     width: 100%;
     margin-top: 18%;
+    position: inherit;
   }
 
   .mapsection {
