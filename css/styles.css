@@ -67,6 +67,15 @@ h3 {
   overflow: hidden;
 }
 
+@keyframes slideIn {
+0% {
+  transform: translateX(-100%);
+}
+100% {
+  transform: translateX(0);
+}
+}
+
 @media (min-width: 1500px) {
   h1 {
     font-size: 4rem;
@@ -307,6 +316,7 @@ h3 {
   position: relative;
   top: -68px;
     text-align: left;
+      animation: 1s ease-out 0s 1 slideIn;
 }
 
 .navbar-nav {
