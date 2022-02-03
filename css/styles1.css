@@ -322,7 +322,6 @@ h3 {
   top: -68px;
   text-align: left;
   animation: 5s slideIn;
-  animation-iteration-count: 1;
 }
 
 @keyframes slideIn {
@@ -391,6 +390,7 @@ li {
     margin-left: 0;
     margin-right: 0;
     top: -64px;
+    animation: inherit;
   }
 
   .navbar-nav>li {
@@ -415,7 +415,6 @@ li {
   .navrow {
     top: 1px;
     margin-bottom: 55px;
-    animation: inherit;
   }
 }
 
