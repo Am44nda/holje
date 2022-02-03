@@ -402,6 +402,7 @@ li {
   .navrow {
     top: 1px;
     margin-bottom: 55px;
+    animation: inherit;
   }
 }
 
