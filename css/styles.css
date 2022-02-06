@@ -64,7 +64,7 @@ h3 {
 .box1 {
   margin: 0 auto;
   width: 628px;
-    animation: 5500ms fadeIn;
+    animation: fadeIn 5500ms 1;
 }
 
 @keyframes fadeIn {
@@ -478,7 +478,7 @@ h2 {
   font-weight: 300;
   line-height: 2.5rem;
   position: relative;
-  margin: 7% 14.5% 10% 15%;
+  margin: 7% 14.5% 10% 14.5%;
   text-align: left;
 }
 
@@ -511,7 +511,7 @@ h2 {
   font-weight: 300;
   line-height: 2.5rem;
   position: relative;
-  margin: 7% 14.5% 10% 15%;
+  margin: 7% 14.5% 10% 14.5%;
   text-align: left;
 }
 
