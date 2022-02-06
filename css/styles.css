@@ -61,6 +61,28 @@ h3 {
   width: 628px;
 }
 
+.box1 {
+  margin: 0 auto;
+  width: 628px;
+    animation: 5500ms fadeIn;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .header-image {
   width: 100%;
   margin-top: 250px;
@@ -74,7 +96,7 @@ h3 {
     font-size: 4rem;
   }
 
-  .box {
+  .box, .box1 {
     position: relative;
     left: -74px;
   }
@@ -99,7 +121,7 @@ h3 {
     position: absolute;
   }
 
-  .box {
+  .box, .box1 {
     position: relative;
     top: 50px;
   }
@@ -110,7 +132,7 @@ h3 {
     font-size: 2.5rem;
   }
 
-  .box {
+  .box, .box1 {
     position: relative;
     top: 45px;
   }
@@ -183,7 +205,7 @@ h3 {
     width: 48px;
   }
 
-  .box {
+  .box, .box1 {
     position: relative;
     top: 40px;
   }
