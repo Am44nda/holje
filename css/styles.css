@@ -351,6 +351,40 @@ h3 {
   100% {
     left: 0;
   }
+}
+
+.navrow2 {
+  background-color: #161928;
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 100%;
+  margin: 0 14%;
+  width: 70%;
+  position: relative;
+  top: -68px;
+  text-align: left;
+  animation: 5s slideIn2;
+}
+
+@keyframes slideIn2 {
+
+  0% {
+    opacity: 0;
+    left: -200px;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 0;
+  }
 
 }
 
@@ -377,13 +411,13 @@ li {
 }
 
 @media (max-width: 2115px) {
-  .navrow {
+  .navrow, .navrow2 {
     top: -72px;
   }
 }
 
 @media (max-width: 1660px) {
-  .navrow {
+  .navrow, .navrow2 {
     top: -75px;
   }
 }
@@ -393,7 +427,7 @@ li {
     height: 80px;
   }
 
-  .navrow {
+  .navrow, .navrow2 {
     width: inherit;
     padding-left: 14.5%;
     margin-left: 0;
@@ -410,7 +444,7 @@ li {
 }
 
 @media (max-width: 767px) {
-  .navrow {
+  .navrow, .navrow2 {
     padding-left: 8.5%;
     top: -65px;
   }
@@ -421,7 +455,7 @@ li {
     height: 0;
   }
 
-  .navrow {
+  .navrow, .navrow2 {
     top: 1px;
     margin-bottom: 55px;
   }
