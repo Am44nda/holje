@@ -485,11 +485,45 @@ color: #CCC;
 .bodybgpolicys {
   background-color: #eff6fb;
   width: 100%;
-  height: 3500px;
+  height: 3400px;
   z-index: -1;
   position: absolute;
   top: 15%;
   bottom: 10%;
+}
+
+@media (max-width: 1250px) {
+  .bodybgpolicys {
+    top: 10%;
+  }
+}
+
+@media (max-width: 580px) {
+  .bodybgpolicys {
+    top: 8%;
+    height: 3500px;
+  }
+}
+
+@media (max-width: 395px) {
+  .bodybgpolicys {
+    top: 6%;
+    height: 4500px;
+  }
+}
+
+@media (max-width: 255px) {
+  .bodybgpolicys {
+    top: 5%;
+    height: 5000px;
+  }
+}
+
+
+@media (max-width: 245px) {
+  .bodybgpolicys {
+    height: 5700px;
+  }
 }
 
 h2 {
