@@ -526,6 +526,15 @@ color: #CCC;
   }
 }
 
+.bodybgkontakt {
+  background-color: #eff6fb;
+  width: 100%;
+  height: 1800px;
+  z-index: -1;
+  position: absolute;
+  top: 15%;
+}
+
 h2 {
   font-size: 2.4rem;
   font-family: 'Fira Sans', sans-serif;
