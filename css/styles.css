@@ -446,6 +446,33 @@ color: #CCC;
 }
 
 /* BODY */
+.bodybg {
+  background-color: #eff6fb;
+  width: 100%;
+  height: 2200px;
+  z-index: -1;
+  position: absolute;
+  top: 15%;
+  bottom: 10%;
+}
+.bodybglager {
+  background-color: #eff6fb;
+  width: 100%;
+  height: 1800px;
+  z-index: -1;
+  position: absolute;
+  top: 15%;
+  bottom: 10%;
+}
+.bodybgpolicys {
+  background-color: #eff6fb;
+  width: 100%;
+  height: 3500px;
+  z-index: -1;
+  position: absolute;
+  top: 15%;
+  bottom: 10%;
+}
 
 h2 {
   font-size: 2.4rem;
