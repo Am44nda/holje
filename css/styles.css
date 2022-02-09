@@ -482,6 +482,12 @@ color: #CCC;
   top: 15%;
   bottom: 10%;
 }
+@media (max-width: 500px) {
+  .bodybglager {
+    height: 1300px;
+  }
+}
+
 .bodybgpolicys {
   background-color: #eff6fb;
   width: 100%;
