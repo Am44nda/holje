@@ -331,7 +331,7 @@ h3 {
   position: relative;
   top: -68px;
   text-align: left;
-  animation: 5s slideIn;
+    animation: 5s slideIn;
 }
 
 @keyframes slideIn {
@@ -1401,7 +1401,7 @@ iframe {
   }
 
   .foot {
-    height: 1320px;
+    height: 1321px;
   }
 
   #foot-content {
@@ -1446,7 +1446,7 @@ iframe {
     margin-top: 9%;
   }
   .foot {
-    height: 1350px;
+    height: 1353px;
   }
 }
 
@@ -1458,7 +1458,7 @@ iframe {
     margin-top: 10.5%;
   }
   .foot {
-    height: 1300px;
+    height: 1303px;
   }
 }
 
@@ -1503,7 +1503,7 @@ iframe {
   }
 
   .foot {
-    height: 1260px;
+    height: 1262px;
   }
 }
 
@@ -1544,7 +1544,7 @@ iframe {
   }
 
   .foot {
-    height: 1200px;
+    height: 1203px;
   }
 }
 
@@ -1571,7 +1571,7 @@ iframe {
   }
 
   .foot {
-    height: 1175px;
+    height: 1177px;
   }
 }
 
@@ -1607,7 +1607,7 @@ iframe {
   }
 
   .foot {
-    height: 1155px;
+    height: 1157px;
   }
 }
 
@@ -1623,7 +1623,7 @@ iframe {
   }
 
   .foot {
-    height: 1100px;
+    height: 1103px;
   }
 }
 
@@ -1654,6 +1654,6 @@ iframe {
 
 @media (min-width: 2135px) {
   .foot {
-    height: 750px;
+    height: 751px;
   }
 }
