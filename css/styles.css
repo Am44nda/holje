@@ -449,7 +449,7 @@ color: #CCC;
 .bodybg {
   background-color: #eff6fb;
   width: 100%;
-  height: 2200px;
+  height: 2000px;
   z-index: -1;
   position: absolute;
   top: 15%;
@@ -533,6 +533,28 @@ color: #CCC;
   z-index: -1;
   position: absolute;
   top: 15%;
+}
+
+@media (min-width: 2600px) {
+  .bodybgkontakt {
+    height: 2300px;
+  }
+}
+@media (max-width 1300px) {
+  .bodybgkontakt {
+    height: 1500px;
+  }
+}
+@media (max-width: 991px) {
+  .bodybgkontakt {
+    height: 2300px;
+  }
+}
+
+@media (max-width: 660px) {
+  .bodybgkontakt {
+    height: 1700px;
+  }
 }
 
 h2 {
