@@ -449,12 +449,30 @@ color: #CCC;
 .bodybg {
   background-color: #eff6fb;
   width: 100%;
-  height: 1900px;
+  height: 2200px;
   z-index: -1;
   position: absolute;
   top: 15%;
-  bottom: 10%;
 }
+
+@media (max-width: 1700px) {
+  .bodybg {
+    height: 1600px;
+  }
+}
+
+@media (max-width: 300px) {
+  .bodybg {
+    top: 13%;
+  }
+}
+
+@media (max-width: 220px) {
+  .bodybg {
+    top: 10%;
+  }
+}
+
 .bodybglager {
   background-color: #eff6fb;
   width: 100%;
