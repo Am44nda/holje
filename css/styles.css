@@ -2,6 +2,8 @@ html, body {
   position: relative;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #eff6fb;
+  z-index: -2;
 }
 
 
@@ -337,19 +339,11 @@ h3 {
 @keyframes slideIn {
 
   0% {
-    opacity: 0;
+    opacity: 0.2;
   }
 
-  50% {
+  70% {
     opacity: 1;
-  }
-
-  75% {
-    opacity: 1;
-  }
-
-  100% {
-    left: 0;
   }
 }
 
@@ -447,133 +441,14 @@ color: #CCC;
 
 /* BODY */
 .bodybg {
-  background-color: #eff6fb;
+  background-color: #FFF;
   width: 100%;
-  height: 2000px;
+  height: 300px;
   z-index: -1;
   position: absolute;
-  top: 15%;
+  top: 0;
 }
 
-@media (max-width: 1700px) {
-  .bodybg {
-    height: 1600px;
-  }
-}
-
-@media (max-width: 300px) {
-  .bodybg {
-    top: 13%;
-  }
-}
-
-@media (max-width: 220px) {
-  .bodybg {
-    top: 10%;
-  }
-}
-
-.bodybglager {
-  background-color: #eff6fb;
-  width: 100%;
-  height: 1708px;
-  z-index: -1;
-  position: absolute;
-  top: 15%;
-  bottom: 10%;
-}
-
-@media (min-width: 2800px) {
-  .bodybglager {
-    height: 1900px;
-  }
-}
-
-@media (max-width: 500px) {
-  .bodybglager {
-    height: 1300px;
-  }
-}
-
-.bodybgpolicys {
-  background-color: #eff6fb;
-  width: 100%;
-  height: 3400px;
-  z-index: -1;
-  position: absolute;
-  top: 15%;
-  bottom: 10%;
-}
-@media (min-width: 2800px) {
-  .bodybgpolicys {
-    height: 3800px;
-  }
-}
-
-@media (max-width: 1250px) {
-  .bodybgpolicys {
-    top: 10%;
-  }
-}
-
-@media (max-width: 580px) {
-  .bodybgpolicys {
-    top: 8%;
-    height: 3500px;
-  }
-}
-
-@media (max-width: 395px) {
-  .bodybgpolicys {
-    top: 6%;
-    height: 4500px;
-  }
-}
-
-@media (max-width: 255px) {
-  .bodybgpolicys {
-    top: 5%;
-    height: 5000px;
-  }
-}
-
-
-@media (max-width: 245px) {
-  .bodybgpolicys {
-    height: 5700px;
-  }
-}
-
-.bodybgkontakt {
-  background-color: #eff6fb;
-  width: 100%;
-  height: 1800px;
-  z-index: -1;
-  position: absolute;
-  top: 15%;
-}
-
-@media (min-width: 2600px) {
-  .bodybgkontakt {
-    height: 2300px;
-  }
-}
-@media (max-width: 1300px) {
-  .bodybgkontakt {
-    height: 1400px;
-  }
-}
-@media (max-width: 991px) {
-  .bodybgkontakt {
-    height: 2300px;
-  }
-}
-
-@media (max-width: 660px) {
-  .bodybgkontakt {
-    height: 1700px;
-  }
-}
 
 h2 {
   font-size: 2.4rem;
